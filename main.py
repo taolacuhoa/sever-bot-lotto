@@ -16,7 +16,8 @@ LIME = "\033[92m"
                                                                 # Danh sách các phòng với tên viết tắt và tên đầy đủ
 phong = {
     "LỚN": "L",
-    "NHỎ": "N",                                              
+    "NHỎ": "N",
+    "HÒA" :"H",
   }
 
 phong_keys = list(phong.values())
