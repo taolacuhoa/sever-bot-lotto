@@ -24,7 +24,7 @@ phong_keys = list(phong.values())
 
 def hien_thi_danh_sach_phong():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(f"{BOLD}{AQUA}DANH SÁCH PHÒNG VIẾT TẮT TOOL VIP MINH HÒA:{RESET}")
+    print(f"{BOLD}{AQUA}DANH SÁCH LỆNH VIẾT TẮT TOOL VIP MINH HÒA:{RESET}")
     for ten_phong, ten_viet_tat in phong.items():
         print(f"{BOLD}{BLUE}{ten_phong} ({ten_viet_tat}){RESET}")
 
@@ -34,7 +34,7 @@ def hien_thi_intro():
         "ADMIN MINH HÒA CHÀO BẠN ĐÃ ĐẾN VỚI TOOL 💥",
         "TOOL HỖ TRỢ DỰ ĐOÁN TỈ SỐ CHÍNH XÁC LÊN ĐẾN 90% ⚠️",
         "ADMIN MINH HÒA XIN ĐƯỢC PHÉP BẮT ĐẦU TOOL 💢",
-        "NHẬP VÁN VỪA RỒI N HAY L ? ❗"
+        "NHẬP VÁN VỪA RỒI N HAY L HAY H ? ❗"
         "MUA TOOL VIP CỰC RẺ LIÊN HỆ ZALO 0889550699 🎭"
     ]
 
@@ -57,7 +57,7 @@ hien_thi_intro()
 hien_thi_danh_sach_phong()
 
 while True:
-    phong_satt_thu_da_vao = input ("NHẬP VÁN VỪA RỒI N HAY L  (ADMIN MINH HÒA)🃏: ").strip()
+    phong_satt_thu_da_vao = input ("NHẬP VÁN VỪA RỒI N HAY L HOẶC H  (ADMIN MINH HÒA)🃏: ").strip()
 
     if phong_satt_thu_da_vao.lower() == 'exit':
         print(f"{BOLD}{AQUA}CẢM ƠN ĐÃ SỬ DỤNG TOOL! ADMIN MINH HÒA")
